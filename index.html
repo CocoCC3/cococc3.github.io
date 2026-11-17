@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Talha Demirok | Unity Game Developer</title>
+<meta name="description" content="Talha Demirok is a Unity game developer in Istanbul. He works on both the Unity client and the Go and PostgreSQL backend of live mobile driving games.">
+<link rel="canonical" href="https://cococc3.github.io/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cococc3.github.io/">
+<meta property="og:title" content="Talha Demirok, Unity Game Developer">
+<meta property="og:description" content="Unity client and Go backend developer on two live mobile driving games: TDZ X and TDZ PRO.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&amp;family=Barlow+Condensed:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#games">Skip to the games</a>
+
+<header class="wrap top">
+  <a class="me" href="#top">Talha Demirok</a>
+  <nav aria-label="Sections">
+    <ul>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top" class="wrap">
+
+  <section class="hero" aria-labelledby="name">
+    <div class="signpost">
+      <p class="sign sign--tab">Istanbul, Türkiye</p>
+      <div class="sign sign--main">
+        <h1 id="name">Talha Demirok</h1>
+        <p class="sign-role">Unity game developer, client and backend</p>
+        <ul class="exits">
+          <li><a href="#tdz-pro"><span class="exit-name">TDZ PRO</span><span class="exit-note">Open-world multiplayer bus and truck simulator</span><svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M12 3v17M4.5 12.5 12 20l7.5-7.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="square"/></svg></a></li>
+          <li><a href="#tdz-x"><span class="exit-name">TDZ X</span><span class="exit-note">Multiplayer racing, 1M+ downloads on Google Play</span><svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M12 3v17M4.5 12.5 12 20l7.5-7.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="square"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="intro">
+      <p class="lead">I work on mobile games in Unity and on the Go backend behind them.</p>
+      <p>At Leke Games I'm a core developer on two live driving games, TDZ PRO and TDZ X. Before that I shipped hybrid-casual games at Hype Games.</p>
+      <div class="reach">
+        <a class="mail" href="mailto:talhademirok@outlook.com">talhademirok@outlook.com</a>
+        <a class="plate" href="https://www.linkedin.com/in/talhademirok/">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="games" class="section" aria-labelledby="games-title">
+    <h2 id="games-title">Games</h2>
+
+    <article class="game row" aria-labelledby="tdz-pro">
+      <div>
+        <h3 id="tdz-pro">TDZ PRO</h3>
+        <p class="game-kind">Open-world multiplayer bus and truck simulator</p>
+        <dl class="facts">
+          <div><dt>Role</dt><dd>Core developer on the Unity client and the Go backend</dd></div>
+          <div><dt>Studio</dt><dd>Leke Games</dd></div>
+          <div><dt>Built with</dt><dd>Unity, C#, Go, PostgreSQL, WebSockets, Photon, OneSignal, Firebase Remote Config, Adapty</dd></div>
+        </dl>
+      </div>
+      <ul class="built">
+        <li>
+          <h4>Backend and APIs</h4>
+          <p>Server-authoritative features with their Unity client integrations: city unlocks with IAP grants, VIP passenger missions, tournaments with configurable rewards and leaderboards, and multi-store seven-day offer events. Economy changes are priced and validated on the server, with idempotent, transactional wallet writes.</p>
+        </li>
+        <li>
+          <h4>Real-time layer</h4>
+          <p>A WebSocket hub for live in-game notifications and wallet and XP updates. I hardened the client connection so it recovers from backgrounding, ad returns and network drops.</p>
+        </li>
+        <li>
+          <h4>Friend system, full-stack</h4>
+          <p>Friend requests, 1:1 chat with server-side content moderation, online presence, a "recently played with" list and one-tap invites into Photon multiplayer rooms.</p>
+        </li>
+        <li>
+          <h4>Push and live-ops</h4>
+          <p>OneSignal push notifications with deep links and localized copy, a Firebase Remote Config maintenance mode, and admin-panel tools: a per-player push composer, live broadcasts and an event editor.</p>
+        </li>
+        <li>
+          <h4>Client gameplay and SDKs</h4>
+          <p>In-vehicle systems (AC panel, engine start and stop, camera FOV controls, radio), new cities and missions. I also integrated OneTrust consent with the ad SDK, and Adapty in-app purchases.</p>
+        </li>
+        <li>
+          <h4>Performance</h4>
+          <p>Cut the launch bootstrap request from about two dozen player-row reads to one.</p>
+        </li>
+      </ul>
+    </article>
+
+    <article class="game row" aria-labelledby="tdz-x">
+      <div>
+        <h3 id="tdz-x">TDZ X: Traffic Driving Zone</h3>
+        <p class="game-kind">Real-time multiplayer racing game with 1M+ downloads on Google Play</p>
+        <dl class="facts">
+          <div><dt>Role</dt><dd>Top code contributor on the project, with 4,000+ commits</dd></div>
+          <div><dt>Studio</dt><dd>Leke Games</dd></div>
+          <div><dt>Built with</dt><dd>Unity, C#, Addressables, real-time sockets, Sign in with Apple</dd></div>
+        </dl>
+        <ul class="plates">
+          <li><a class="plate" href="https://play.google.com/store/apps/details?id=com.leke.tdzxandroid">Google Play</a></li>
+          <li><a class="plate" href="https://apps.apple.com/app/id6467969472">App Store</a></li>
+        </ul>
+      </div>
+      <ul class="built">
+        <li>
+          <h4>Multiplayer and backend integration</h4>
+          <p>The real-time multiplayer flow, player data and authentication including Sign in with Apple, session handling and socket reconnection.</p>
+        </li>
+        <li>
+          <h4>Competitive and social</h4>
+          <p>Designed and built the league system, leaderboards, an inbox with reward pools, friends and in-game chat.</p>
+        </li>
+        <li>
+          <h4>Content and performance</h4>
+          <p>Moved content to Addressables for smoother updates, built notification systems, and added performance tracking with safe automatic quality changes across devices.</p>
+        </li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="experience" class="section" aria-labelledby="experience-title">
+    <h2 id="experience-title">Experience</h2>
+    <ol class="roles">
+      <li class="role row">
+        <p class="when">Jul 2023 to present</p>
+        <div>
+          <h3>Game Developer, Leke Games</h3>
+          <p class="where">Istanbul, Türkiye</p>
+          <p class="what">Core developer on TDZ PRO and TDZ X, working across the Unity client and the Go and PostgreSQL backend.</p>
+        </div>
+      </li>
+      <li class="role row">
+        <p class="when">May 2022 to Apr 2023</p>
+        <div>
+          <h3>Game Developer, Hype Games</h3>
+          <p class="where">Istanbul, Türkiye</p>
+          <ul>
+            <li>Developed hybrid-casual mobile games, combining custom gameplay systems with third-party SDKs.</li>
+            <li>Created reusable code templates that sped up production and let the team ship more games.</li>
+            <li>Managed App Store and Google Play releases on my own, from SDK integration to store submission.</li>
+          </ul>
+        </div>
+      </li>
+      <li class="role row">
+        <p class="when">Nov 2021 to May 2022</p>
+        <div>
+          <h3>Game Developer, Magnolia Games</h3>
+          <p class="where">Istanbul, Türkiye</p>
+          <ul>
+            <li>My first professional role: gameplay features, prototypes and bug fixes in Unity and C# for mobile projects.</li>
+            <li>Learned how a studio ships games: a Git-based team workflow, working with artists and designers, testing and iteration.</li>
+          </ul>
+        </div>
+      </li>
+      <li class="role row">
+        <p class="when">2018 to 2022</p>
+        <div>
+          <h3>Digital Game Design, Bahçeşehir University</h3>
+          <p class="where">Bachelor's degree, Istanbul, Türkiye</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section id="skills" class="section" aria-labelledby="skills-title">
+    <h2 id="skills-title">Skills</h2>
+    <dl class="skills">
+      <div class="row"><dt>Client</dt><dd>Unity, C#, Photon (PUN), Addressables, UniTask, vehicle physics</dd></div>
+      <div class="row"><dt>Backend</dt><dd>Go, PostgreSQL, REST APIs, WebSockets, server-authoritative design, DigitalOcean</dd></div>
+      <div class="row"><dt>SDKs and services</dt><dd>Firebase, OneSignal, Adapty, AppLovin MAX, Adjust, OneTrust</dd></div>
+      <div class="row"><dt>Platforms and tools</dt><dd>iOS, Android, App Store and Google Play publishing, Git, Claude Code, Cursor</dd></div>
+      <div class="row"><dt>Languages</dt><dd>Turkish (native), English (intermediate, B1)</dd></div>
+    </dl>
+  </section>
+
+  <section id="contact" class="section" aria-labelledby="contact-title">
+    <h2 id="contact-title">Contact</h2>
+    <div class="contact">
+      <a class="mail" href="mailto:talhademirok@outlook.com">talhademirok@outlook.com</a>
+      <a class="plate" href="https://www.linkedin.com/in/talhademirok/">LinkedIn</a>
+      <p class="fine">Based in Istanbul, Türkiye. Outside work I'm into sports, camping, board games and playing music.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap foot">
+  <p>© 2026 Talha Demirok</p>
+</footer>
+</body>
+</html>
